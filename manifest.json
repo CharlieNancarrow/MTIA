@@ -10,5 +10,10 @@
   },
   "icons": {
     "128": "icon.png"
-  }
+  },
+  "background_page": "background.html",
+  "permissions": [
+    "webRequest", "webRequestBlocking",
+    "http://www.mozilla.org/*"
+  ]
 }
